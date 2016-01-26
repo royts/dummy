@@ -1,1 +1,1 @@
-console.log("yo yo! I embedded a custom script!");
+console.log("[shop script] yo yo! I embedded a custom script!");
