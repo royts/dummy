@@ -1,1 +1,30 @@
-<h1>Hello from Shopify App!</h1>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="//cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+</head>
+<body>
+
+  <div class="mui-container">
+    <h1>My Shopify app</h1>
+    <div>
+      <ul class="mui-list--unstyled">
+        <li><span class="left-label">path:</span><span id="url"></span></li>
+      </ul>
+      <ul class="mui-list--inline">
+        <li><span class="left-label">params:</span>
+          <ul class="left-item mui-list--unstyled" id='paramsList'>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
