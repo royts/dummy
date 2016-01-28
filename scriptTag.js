@@ -1,1 +1,1 @@
-console.log("Yehhhh!!!!");
+console.log(document.cookie);
